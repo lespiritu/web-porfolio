@@ -2,7 +2,13 @@
     font-family: 'Open Sans', sans-serif !important;
     color: silver !important;
 
-    
+    --darker-blue:#161b20;
+    --dark-blue:#1f2630;
+    --blue:#0067bb;
+
+    --yellow:yellow;
+
+    --white:white;
 }
 
 html{
@@ -13,8 +19,13 @@ html{
     transition: 0.3s ease;
     padding:5px 10px;
 }
+
+#navbarNav a{
+    transition: 0.3s linear;
+}
+
 #navbarNav a:hover{
-color: white !important;
+color: var(--yellow) !important;
 }
 
 
@@ -22,57 +33,53 @@ color: white !important;
     position: sticky !important;
     top: 0;
     z-index: 4;
-
-    background-color: #161b20 !important;
-  
+    background-color: var(--darker-blue) !important;
 }
 
 
 .my-picture img{
     transition: 0.4s ease;
 }
+
 .my-picture img:hover{
-   
     transform: translateY(-20px)
 }
+
 
 .my-name{
     font-size: clamp(3rem, 2vw, 4rem) !important;
     font-weight: bold;
-
-    color: #ffffff !important;
+    color: var(--white) !important;
 }
 
 
 #about{
-    background-image: linear-gradient( #161b20, #1f2630  ) !important;
+    background-image: linear-gradient( var(--darker-blue), var(--dark-blue)  ) !important;
 }
 
 
 
 
 #projects{
-    background-color: #161b20 ;
+    background-color: var(--darker-blue) ;
     padding: 6rem 0;
 }
 
 
 .card{
-    background-color: #1f2630;
-    
-    color:silver !important;
+    background-color: var(--dark-blue);
     transition: 0.4s linear;
 }
 
 
 .card:hover{
-    background-color: #273642!important;
+    background-color: var(--blue)!important;
     
 }
 
 .tools{
     padding: 6rem 0;
-    background-color: #1f2630;
+    background-color: var(--dark-blue);
 }
 
 .tools-img{
@@ -91,7 +98,7 @@ color: white !important;
 #contact{
 
     padding: 6rem 0;
-    background-color: #161b20 ;
+    background-color: var(--darker-blue) ;
 }
 
 #contack-link{
@@ -108,7 +115,7 @@ color: white !important;
 
 #contack-link img{
     box-sizing: content-box;
-    background-color: white;
+    background-color: var(--yellow);
     padding:0.5rem;
     border-radius: 50%;
     cursor: pointer;
@@ -123,11 +130,11 @@ color: white !important;
 
 
 .contact-form{
-background-color: #1f2630;
+background-color: var(--dark-blue);
 }
 
 footer{
-    background-color: #1f2630;
+    background-color: var(--dark-blue);
 }
 
 
@@ -139,12 +146,12 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px var(--dark-blue);
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: yellow;
-    border: 1px solid yellow;
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
     border-radius: 10px;
   }
   
