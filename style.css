@@ -1,4 +1,7 @@
-
+*{
+    font-family: 'Open Sans', sans-serif !important;
+    color: silver !important;
+}
 
 .navbar{
     position: sticky !important;
@@ -9,7 +12,7 @@
 }
 
 
-#about{
+#about, #contact{
     background-color: #1d2024 !important;
 }
 
@@ -27,4 +30,20 @@
 .card:hover{
     background-color: #222c36!important;
     
+}
+
+
+
+#{
+    width: ;
+}
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    width: 75%;
+    max-width: 1200px;
+
 }

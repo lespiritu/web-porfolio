@@ -11,6 +11,10 @@
     <!-- Bootstrap CSS End -->
 
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>  
     <!-- Navigation Start -->
@@ -66,7 +70,7 @@
 
 
         <section id="projects" class="container-fluid  py-4 min-vh-100">
-            <h2 class="text-center pt-4 text-light">Some Thing I've Built</h2>
+            <h2 class="text-center pt-4">Some Thing I've Built</h2>
 
             <div class="d-md-flex justify-content-center p-md-4">
                 <div class="card col-xl-3 col-md-4 bg-dark mx-md-2 my-4" >
@@ -77,7 +81,7 @@
                     </div>
                   
                     <div class="card-body">
-                      <a href="#" class="card-link">Link to Project</a>
+                      <a href="https://lespiritu.github.io/tenzies-game/" target="_blank" class="card-link">Link to Project</a>
                     
                     </div>
                   </div>
@@ -90,7 +94,7 @@
                     </div>
                   
                     <div class="card-body">
-                      <a href="#" class="card-link">Link to Project</a>
+                      <a href="https://leo.devatnight.com/" target="_blank" class="card-link">Link to Project</a>
                     
                     </div>
                   </div>
@@ -103,7 +107,7 @@
                     </div>
                   
                     <div class="card-body">
-                      <a href="#" class="card-link">Link to Project</a>
+                      <a href="https://github.com/lespiritu/memes-generator" target="_blank" class="card-link">Link to Project</a>
                     
                     </div>
                   </div>
@@ -112,13 +116,56 @@
 
 
 
-        <section id="tools">
-
-
+        <section id="tools" >
+            <h2 class="text-center pt-4 text-light p-4 bg-secondary">Tools I am Using</h2>
+            <div class="tools">
+                <img src="./images/tools-1/logo-html5.png" alt="">
+                <img src="./images/tools-1/logo-css3.png" alt="">
+                <img src="./images/tools-1/logo-javascript.png" alt="">
+                <img src="./images/tools-1/logo-bootstrap.png" alt="">
+                <img src="./images/tools-1/logo-git.png" alt="">
+                <img src="./images/tools-1/logo-react.png" alt="">
+                <img src="./images/tools-1/logo-gitlab-ci-cd.png" alt="">
+                <img src="./images/tools-1/logo-heroku.png" alt="">
+                <img src="./images/tools-1/logo-mongodb.png" alt="">
+                <img src="./images/tools-1/logo-nodejs.png" alt="">
+                <img src="./images/tools-1/logo-postman.png" alt="">
+                <img src="./images/tools-1/logo-rest.png" alt="">
+                <img src="./images/tools-1/logo-sublime-text-3.png" alt="">
+            </div>
         </section>
 
         <section id="contact">
+            <div class="min-vh-100 p-5">
+                <h2 class="text-center pt-4">Contact Me</h2>
 
+                <div class="row mt-5">
+                    <form class="col-12 col-md-8 col-xl-4 offset-md-2 offset-xl-4 bg-primary p-3 rounded">
+
+
+                        <div class="form-group">
+                          <label class="text-light" for="full-name">Full Name</label>
+                          <input type="text" class="form-control" id="full-name" placeholder="Your Name">
+                        </div>
+
+
+                      <div class="form-group">
+                        <label class="text-light" for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                      </div>
+
+                   
+                      <div class="form-group">
+                        <label class="text-light" for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="7"></textarea>
+                      </div>
+
+                      <button class="btn btn-dark" type="button" data-toggle="modal" data-target="#exampleModal" >
+                          Send Email
+                      </button>
+                    </form>
+                </div>
+            </div>
         </section>
         
       </main>
