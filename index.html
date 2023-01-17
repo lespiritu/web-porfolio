@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Leoncio Espiritu</title>
 
     <!-- Bootstrap CSS Start -->
@@ -15,13 +17,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="Icon" href="favicon.ico">
+
 </head>
 <body>  
     <!-- Navigation Start -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
         <a class="navbar-brand" href="#">
-            <img src="./images/leo_logo_light.png" width="70" alt="">
+            <img src="./images/leo_logo_light.png" width="70" alt="logo">
         </a>
 
         <!-- Hamburger Icon -->
@@ -30,7 +35,7 @@
             </button>
         <!-- Hamburger Icon End -->
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
@@ -54,62 +59,63 @@
 
       <main>
         <section id="about" class="text-light min-vh-100  d-md-flex justify-content-center align-items-center">
-            <div class="d-md-flex justify-content-center">
-                <div>
-                    <img class="img-fluid p-4" src="./images/my-picture.png" width="400" alt="">
+            
+            <div class="d-md-flex justify-content-center about-content">
+                <div class="col-md-6 col-xl-4 text-center text-md-right my-picture">
+                    <img class="img-fluid p-4" src="./images/my-picture.png" width="450" alt="">
                 </div>
     
                 <div class="col-md-6 p-4">
-                    <h4>Hi! my name is</h4>
-                    <h1>Leoncio Espiritu</h1>
+                    <h4 class="my-2">Hi! my name is</h4>
+                    <h1 class="my-name my-2">Leoncio Espiritu</h1>
                     <h2>Full stack Developer</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, quo. Molestias id recusandae rerum itaque voluptatibus quia expedita labore autem, reprehenderit, repudiandae sed, unde voluptatum. Culpa, quis aspernatur. Sint molestiae omnis aperiam totam repellendus recusandae est dignissimos perspiciatis, consequatur, doloribus nulla quae quos nemo et distinctio. Quidem mollitia dolore cupiditate voluptatum, ipsam placeat nulla molestias in veniam minus praesentium error ipsa! Delectus qui architecto blanditiis asperiores quisquam obcaecati veniam placeat at amet, modi incidunt quibusdam facilis libero magnam molestias tempore esse deserunt alias fuga sapiente, nisi officia laudantium? Quo doloremque praesentium quia, impedit officia maiores nobis similique autem aut reiciendis!</p>
+                    <p>I have knowledge in basic designing. I am using Adobe Photoshop and Illustrator. I am Currently studying for a full stock web developement and interested of learning something new like with libraries that might helps me in my career growth.</p>
+                    <a href="./images/resume.pdf" target="_blank"><button class="btn btn-dark">Resume</button></a>
                 </div>
             </div>
+
+        
         </section>
 
 
-        <section id="projects" class="container-fluid  py-4 min-vh-100">
+        <section id="projects" class="container-fluid   min-vh-100">
             <h2 class="text-center pt-4">Some Thing I've Built</h2>
 
             <div class="d-md-flex justify-content-center p-md-4">
-                <div class="card col-xl-3 col-md-4 bg-dark mx-md-2 my-4" >
-                    <img src="./images/project-1.jpg" class="card-img-top mt-3" alt="HTML Image">
-                    <div class="card-body">
-                      <h5 class="card-title">Tenzies Mini Game</h5>
-                      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolores incidunt provident non. Eveniet minima illum odio impedit debitis, dicta enim consequuntur maiores fugit. Ullam?</p>
+                <a href="https://lespiritu.github.io/tenzies-game/" target="_blank" class="card-link">
+                    <div class="card col-xl-3 col-md-4   mx-md-2 my-4" >
+                        <img src="./images/project-1.jpg" class="card-img-top mt-3" alt="Tenzies game card image">
+                        <div class="card-body">
+                        <h5 class="card-title">Tenzies Mini Game</h5>
+                        <p class="card-text">In this project I used reactjs and other react libraries.I also added the functionality to record your best score in the device.</p>
                     </div>
-                  
-                    <div class="card-body">
-                      <a href="https://lespiritu.github.io/tenzies-game/" target="_blank" class="card-link">Link to Project</a>
+                </a>
                     
-                    </div>
+                  
                   </div>
 
-                  <div class="card col-xl-3 col-md-4 bg-dark mx-md-2 my-4" >
-                    <img src="./images/project-2.jpg" class="card-img-top mt-3 " alt="HTML Image">
+                  <a href="https://leo.devatnight.com/" target="_blank" class="card-link">
+                  <div class="card col-xl-3 col-md-4  mx-md-2 my-4" >
+                    <img src="./images/project-2.jpg" class="card-img-top mt-3 " alt="Porfolio card image">
                     <div class="card-body">
                       <h5 class="card-title">Porfolio</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor amet error, ex ratione hic ullam, similique doloremque quaerat molestiae quia harum beatae consectetur iusto totam!</p>
+                      <p class="card-text">I used to work with my dev ops cousin to this project. I used React, typescript, scss, story book and other libraries for this project. I'll did for all the front end task and created for my own components like card, tab.</p>
                     </div>
-                  
-                    <div class="card-body">
-                      <a href="https://leo.devatnight.com/" target="_blank" class="card-link">Link to Project</a>
+                  </a>
                     
-                    </div>
                   </div>
 
-                  <div class="card col-xl-3 col-md-4 bg-dark mx-md-2 my-4" >
-                    <img src="./images/project-3.jpg" class="card-img-top mt-3" alt="HTML Image">
-                    <div class="card-body">
-                      <h5 class="card-title">Memes Generator</h5>
-                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel magnam cumque necessitatibus dolorem blanditiis perspiciatis. Asperiores quia voluptatem ipsum? Quam rem natus eum hic aperiam.</p>
+
+                  <a href="https://github.com/lespiritu/memes-generator" target="_blank" class="card-link">
+                    <div class="card col-xl-3 col-md-4   mx-md-2 my-4" >
+                        <img src="./images/project-3.jpg" class="card-img-top mt-3" alt="memes-generator card image">
+                        <div class="card-body">
+                        <h5 class="card-title">Memes Generator</h5>
+                        <p class="card-text">This Memes Generator can generate random image. I used API for this project to get image in free API website.</p>
                     </div>
-                  
-                    <div class="card-body">
-                      <a href="https://github.com/lespiritu/memes-generator" target="_blank" class="card-link">Link to Project</a>
+                </a>
                     
-                    </div>
+               
                   </div>
             </div>
         </section>
@@ -117,60 +123,86 @@
 
 
         <section id="tools" >
-            <h2 class="text-center pt-4 text-light p-4 bg-secondary">Tools I am Using</h2>
-            <div class="tools">
-                <img src="./images/tools-1/logo-html5.png" alt="">
-                <img src="./images/tools-1/logo-css3.png" alt="">
-                <img src="./images/tools-1/logo-javascript.png" alt="">
-                <img src="./images/tools-1/logo-bootstrap.png" alt="">
-                <img src="./images/tools-1/logo-git.png" alt="">
-                <img src="./images/tools-1/logo-react.png" alt="">
-                <img src="./images/tools-1/logo-gitlab-ci-cd.png" alt="">
-                <img src="./images/tools-1/logo-heroku.png" alt="">
-                <img src="./images/tools-1/logo-mongodb.png" alt="">
-                <img src="./images/tools-1/logo-nodejs.png" alt="">
-                <img src="./images/tools-1/logo-postman.png" alt="">
-                <img src="./images/tools-1/logo-rest.png" alt="">
-                <img src="./images/tools-1/logo-sublime-text-3.png" alt="">
+            <div class="container-fluid tools">
+                <h2 class="text-center pt-4 p-4 ">Tools I am Using</h2>
+                <div class="tools-img">
+                    <img src="./images/tools-1/logo-html5.png" alt="html logo">
+                    <img src="./images/tools-1/logo-css3.png" alt="css logo">
+                    <img src="./images/tools-1/logo-javascript.png" alt="javascript logo">
+                    <img src="./images/tools-1/logo-bootstrap.png" alt="bootstrap logo">
+                    <img src="./images/tools-1/logo-git.png" alt="git logo">
+                    <img src="./images/tools-1/logo-react.png" alt="react logo">
+                    <img src="./images/tools-1/logo-gitlab-ci-cd.png" alt="gitlab logo">
+                    <img src="./images/tools-1/logo-heroku.png" alt="heroku logo">
+                    <img src="./images/tools-1/logo-mongodb.png" alt="mongodb logo">
+                    <img src="./images/tools-1/logo-nodejs.png" alt="nodejs logo">
+                    <img src="./images/tools-1/logo-postman.png" alt="postman logo">
+                    <img src="./images/tools-1/logo-rest.png" alt="rest logo">
+                    <img src="./images/tools-1/logo-sublime-text-3.png" alt="sublime logo">
+                </div>
             </div>
         </section>
 
         <section id="contact">
-            <div class="min-vh-100 p-5">
+            <div class="p-4">
                 <h2 class="text-center pt-4">Contact Me</h2>
 
-                <div class="row mt-5">
-                    <form class="col-12 col-md-8 col-xl-4 offset-md-2 offset-xl-4 bg-primary p-3 rounded">
 
+                <div class="d-md-flex mt-3">
 
-                        <div class="form-group">
-                          <label class="text-light" for="full-name">Full Name</label>
-                          <input type="text" class="form-control" id="full-name" placeholder="Your Name">
-                        </div>
+                    <div class="text-center text-md-right col-md-6 col-xl-4 offset-xl-2  p-2">
+                        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8443.906631685993!2d120.64630579473437!3d13.985454371480424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bdbd938d51e097%3A0x37cdea7421faf57a!2sPandayan%20Blacksmith!5e0!3m2!1sen!2sph!4v1673957868802!5m2!1sen!2sph"  height="470" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+    
+                    
+                    <div class=" col-md-6 col-xl-4 p-2  mt-2 mt-md-0 mx-md-2">
+                        <form class="contact-form p-3 rounded ">
+    
+    
+                            <div class="form-group">
+                              <label class="text-light" for="full-name">Full Name</label>
+                              <input type="text" class="form-control" id="full-name" placeholder="Your Name">
+                            </div>
+    
+    
+                          <div class="form-group">
+                            <label class="text-light" for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                          </div>
+    
+                       
+                          <div class="form-group">
+                            <label class="text-light" for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="7"></textarea>
+                          </div>
+    
+                          <button class="btn btn-dark" type="button" data-toggle="modal" data-target="#exampleModal" >
+                              Send Email
+                          </button>
+                        </form>
+                    </div>
+                </div>
 
-
-                      <div class="form-group">
-                        <label class="text-light" for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                      </div>
-
-                   
-                      <div class="form-group">
-                        <label class="text-light" for="message">Message</label>
-                        <textarea class="form-control" id="message" rows="7"></textarea>
-                      </div>
-
-                      <button class="btn btn-dark" type="button" data-toggle="modal" data-target="#exampleModal" >
-                          Send Email
-                      </button>
-                    </form>
+                <div id="contack-link">
+                    <a href="https://www.linkedin.com/in/leoncio-espiritu-016707153/" target="_blank" title="linkedIn">
+                         <img src="./images/linkedin.svg" alt="linkedIn image">
+                     </a>
+                     
+                     <a href="https://github.com/lespiritu" target="_blank" title="GitHub">
+                        <img src="./images/github.svg"  alt="github image">
+                     </a>
+                    <a href="https://gitlab.com/espirituleoncio7" target="_blank" title="GitLab">
+                          <img src="./images/gitllab.svg"  alt="gitlab image">
+                     </a>
                 </div>
             </div>
         </section>
+
+     
         
       </main>
 
-      <footer class="text-center bg-dark text-light p-4">
+      <footer class="text-center p-4">
         <span>Design and built by: Leoncio Espiritu</span>
       </footer>
 

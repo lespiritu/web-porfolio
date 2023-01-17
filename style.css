@@ -1,43 +1,83 @@
 *{
     font-family: 'Open Sans', sans-serif !important;
     color: silver !important;
+
+    
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbarNav ul li{
+    transition: 0.3s ease;
+    padding:5px 10px;
+}
+#navbarNav a:hover{
+color: white !important;
+}
+
 
 .navbar{
     position: sticky !important;
     top: 0;
     z-index: 4;
 
-    background-color: #121416 !important;
+    background-color: #161b20 !important;
+  
 }
 
 
-#about, #contact{
-    background-color: #1d2024 !important;
+.my-picture img{
+    transition: 0.4s ease;
 }
+.my-picture img:hover{
+   
+    transform: translateY(-20px)
+}
+
+.my-name{
+    font-size: clamp(3rem, 2vw, 4rem) !important;
+    font-weight: bold;
+
+    color: #ffffff !important;
+}
+
+
+#about{
+    background-image: linear-gradient( #161b20, #1f2630  ) !important;
+}
+
+
+
 
 #projects{
-    background-color: #141516;
+    background-color: #161b20 ;
+    padding: 6rem 0;
 }
 
 
 .card{
-    background-color: #1d2024!important;
+    background-color: #1f2630;
+    
     color:silver !important;
     transition: 0.4s linear;
 }
 
+
 .card:hover{
-    background-color: #222c36!important;
+    background-color: #273642!important;
     
 }
 
-
-
-#{
-    width: ;
-}
 .tools{
+    padding: 6rem 0;
+    background-color: #1f2630;
+}
+
+.tools-img{
+
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -47,3 +87,64 @@
     max-width: 1200px;
 
 }
+
+#contact{
+
+    padding: 6rem 0;
+    background-color: #161b20 ;
+}
+
+#contack-link{
+    
+    margin: 1rem auto;
+    gap: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+  
+}
+
+#contack-link img{
+    box-sizing: content-box;
+    background-color: white;
+    padding:0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: 0.3s ease;
+    width: 30px;
+}
+
+#contack-link img:hover{
+    transform: translateY(-10px);
+}
+
+
+.contact-form{
+background-color: #1f2630;
+}
+
+footer{
+    background-color: #1f2630;
+}
+
+
+
+/* Additional for scrol */
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 10px;
+  }
+  
