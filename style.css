@@ -47,7 +47,7 @@ color: var(--yellow) !important;
 
 
 .my-name{
-    font-size: clamp(3rem, 2vw, 4rem) !important;
+    font-size: clamp(2rem, 4vw, 4rem) !important;
     font-weight: bold;
     color: var(--white) !important;
 }
